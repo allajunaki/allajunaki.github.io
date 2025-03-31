@@ -1,0 +1,115 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+body {
+  background: #000000;
+}
+
+div {
+  color:  #003B00;
+  font-family: Monaco, monospace;
+  font-size: 24px;
+  text-align: left;
+  position: absolute;
+  top: 80%;
+  // left: 50%;
+  transform: translate(-50%,-50%);
+  animation: 5s infinite alternate glitch;
+  opacity: 0.9;
+  padding: 10px;
+  border: 1px solid;
+  background: #000000;
+}
+
+span {
+  animation: 2.5s infinite normal cursor;
+}
+
+::-moz-selection {
+  background: #7021d2;
+  color: #fff;
+}
+
+::selection {
+  background: #7021d2;
+  color: #fff;
+}
+@keyframes glitch {
+  0% {
+    transform: translate(0);
+    text-shadow: none;
+  }
+  7% {
+    // transform: translate(-1px, 1px);
+    text-shadow: 1px 0 #008F11, -1px 0 #00FF41;
+  }
+  15% {
+    // transform: translate(1px, -1px);
+    text-shadow: 1px 0 #00FF41, -1px 0 #008F11;
+  }
+  20% {
+    // transform: translate(-1px, 1px);
+    text-shadow: 1px 0 #008F11, -1px 0 #00FF41, 1px -1px green;
+  }
+  30% {
+    transform: translate(1px, -1px);
+    text-shadow: -1px 0 #00FF41, 1px 0 #008F11, 1px 1px green;
+  }
+  25%,
+  35%,
+  100% {
+    transform: translate(0);
+    text-shadow: none;
+  }
+}
+
+.glitchy-text {
+  display: inline-block;
+  font-size: 2em;
+  font-family: "Monospace", sans-serif;
+  color: white;
+  background-color: black;
+  padding: 10px;
+  animation: glitch 1s infinite alternate-reverse;
+}
+@keyframes glitchy {
+  0% {
+    opacity: 0;
+    transform: translate(-52%,-50%);
+  }
+  50% {
+    opacity: 1;
+    transform: translate(-50%,-50%);
+  }
+  100% {
+    opacity: .7;
+    transform: translate(-52%,-50%);
+  }
+}
+
+@keyframes cursor {
+  0% {
+    opacity: 0;
+    left: 0;
+  }
+  40% {
+    opacity: 0;
+    left: -2px;
+  }
+  80% {
+    opacity: 1;
+    left: -2px;
+  }
+}
+
+// canvas {
+//   border: 1px solid rgba(0,0,0,.14);
+//   box-shadow: 0 0 3px rgba(0,0,0,.05);
+//   margin: 20px;
+//   border-radius: 5px;
+// }
