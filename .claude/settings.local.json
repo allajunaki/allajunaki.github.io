@@ -1,0 +1,36 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:github.com)",
+      "Bash(mkdir:*)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(curl:*)",
+      "Bash(git checkout:*)",
+      "WebFetch(domain:pages.github.com)",
+      "WebFetch(domain:jekyllrb.com)",
+      "Bash(gem install:*)",
+      "Bash(ruby --version)",
+      "Bash(rvm list:*)",
+      "Bash(rvm install:*)",
+      "Bash(brew install:*)",
+      "Bash(export:*)",
+      "Bash(jekyll new . --force)",
+      "Bash(jekyll --version)",
+      "Bash(find:*)",
+      "Bash(gem env:*)",
+      "Bash(rvm use:*)",
+      "Bash(gem --version)",
+      "Bash(/usr/local/opt/ruby/bin/gem list jekyll)",
+      "Bash(/usr/local/opt/ruby/bin/gem env)",
+      "Bash(ls:*)",
+      "Bash(rvm implode:*)",
+      "Bash(cp:*)",
+      "Bash(bundle exec jekyll serve:*)",
+      "Bash(mv:*)",
+      "Bash(bundle exec:*)"
+    ],
+    "deny": []
+  }
+}
