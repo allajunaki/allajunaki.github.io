@@ -29,7 +29,12 @@
       "Bash(cp:*)",
       "Bash(bundle exec jekyll serve:*)",
       "Bash(mv:*)",
-      "Bash(bundle exec:*)"
+      "Bash(bundle exec:*)",
+      "Bash(chmod:*)",
+      "Bash(./dev.sh)",
+      "Bash(command -v:*)",
+      "Bash(brew list:*)",
+      "Bash(source:*)"
     ],
     "deny": []
   }

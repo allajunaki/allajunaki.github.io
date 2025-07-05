@@ -17,7 +17,7 @@ div {
   text-align: left;
   position: absolute;
   top: 80%;
-  // left: 50%;
+  left: 35%;
   transform: translate(-50%,-50%);
   animation: 5s infinite alternate glitch;
   opacity: 0.9;
@@ -45,15 +45,15 @@ span {
     text-shadow: none;
   }
   7% {
-    // transform: translate(-1px, 1px);
+    /* transform: translate(-1px, 1px); */
     text-shadow: 1px 0 #008F11, -1px 0 #00FF41;
   }
   15% {
-    // transform: translate(1px, -1px);
+    /* transform: translate(1px, -1px); */
     text-shadow: 1px 0 #00FF41, -1px 0 #008F11;
   }
   20% {
-    // transform: translate(-1px, 1px);
+     /* transform: translate(-1px, 1px); */
     text-shadow: 1px 0 #008F11, -1px 0 #00FF41, 1px -1px green;
   }
   30% {
@@ -106,10 +106,10 @@ span {
     left: -2px;
   }
 }
-
-// canvas {
-//   border: 1px solid rgba(0,0,0,.14);
-//   box-shadow: 0 0 3px rgba(0,0,0,.05);
-//   margin: 20px;
-//   border-radius: 5px;
-// }
+/* 
+canvas {
+  border: 1px solid rgba(0,0,0,.14);
+  box-shadow: 0 0 3px rgba(0,0,0,.05);
+  margin: 20px;
+  border-radius: 5px;
+} */

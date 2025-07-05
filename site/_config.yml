@@ -21,7 +21,7 @@
 title: abilashmohan.com
 email: contact@abilashmohan.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Personal website of Abilash Mohan - Coming Soon with Matrix-style digital aesthetics.
+  Personal website of Abilash Mohan - Coming Soon.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://abilashmohan.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: allajunaki
